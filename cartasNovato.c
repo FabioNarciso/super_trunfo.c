@@ -24,7 +24,7 @@ int main() {
 
     printf("Digite o codigo da primeira carta (Ex: A01): ");
     scanf("%s", codigo1);
-    getchar();
+    getchar(); // consome o ENTER
 
     printf("Digite o nome da cidade: ");
     fgets(cidade1, sizeof(cidade1), stdin);
@@ -86,4 +86,5 @@ int main() {
     printf("Numero de Pontos Turisticos: %d\n", pontosTuristicos2);
 
     return 0;
+
 }
