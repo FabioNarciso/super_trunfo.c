@@ -27,7 +27,7 @@ int main() {
     getchar(); // consome o ENTER
 
     printf("Digite o nome da cidade: ");
-    fgets(cidade1, sizeof(cidade1), stdin);
+    fgets(cidade1, sizeof(cidade1), stdin); // Para ler nomes com espaços
     cidade1[strcspn(cidade1, "\n")] = '\0';
 
     printf("Digite a populacao: ");
@@ -88,3 +88,4 @@ int main() {
     return 0;
 
 }
+
